@@ -439,6 +439,67 @@ p {
   font-weight: 700;
 }
 
+/* ---------- Blog ---------- */
+.blog .lead {
+  max-width: 760px;
+  font-size: 1.1rem;
+  color: var(--text-soft);
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin: 28px 0 0;
+  max-width: 760px;
+}
+
+.post-list > li {
+  padding: 24px 0;
+  border-top: 1px solid var(--border);
+}
+
+.post-list > li:first-child {
+  border-top: none;
+  padding-top: 8px;
+}
+
+.post-list h2 {
+  margin: 0 0 0.3em;
+  font-size: 1.3rem;
+}
+
+.post-list h2 a {
+  color: var(--text);
+}
+
+.post-list h2 a:hover {
+  color: var(--accent-strong);
+  text-decoration: none;
+}
+
+.post-date {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 0.4em;
+  letter-spacing: 0.01em;
+}
+
+.post-summary {
+  margin: 0.3em 0 0;
+  color: var(--text-soft);
+  font-size: 0.98rem;
+}
+
+.callout.cta {
+  margin-top: 32px;
+}
+
+.callout.cta a {
+  font-weight: 600;
+  white-space: nowrap;
+}
+
 /* ---------- Footer ---------- */
 .site-footer {
   margin-top: 64px;

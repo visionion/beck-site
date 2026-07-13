@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>A task list that maintains itself — Beck</title>
+  <meta name="description" content="Beck's automation engine turns triggers, conditions, and actions into rules that auto-tag, reschedule, roll over unfinished tasks, and archive done ones — or start from a recipe." />
+  <link rel="canonical" href="https://beck.visionion.dev/blog/automation-that-maintains-your-list/" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%234A8CDB'/><text x='50' y='68' font-size='60' font-family='Arial' font-weight='bold' text-anchor='middle' fill='white'>B</text></svg>" />
+  <link rel="stylesheet" href="/styles.css" />
+
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Beck" />
+  <meta property="og:title" content="A task list that maintains itself — Beck" />
+  <meta property="og:description" content="Rules from triggers, conditions, and actions that tag, reschedule, roll over, and archive your tasks automatically." />
+  <meta property="og:url" content="https://beck.visionion.dev/blog/automation-that-maintains-your-list/" />
+  <meta name="twitter:card" content="summary" />
+
+  <!-- Google Analytics 4 — replace G-XXXXXXXXXX with the real Measurement ID (property 516785066). See README. -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "A task list that maintains itself",
+    "description": "Beck's automation engine turns triggers, conditions, and actions into rules that auto-tag, reschedule, roll over unfinished tasks, and archive done ones — or start from a recipe.",
+    "datePublished": "2026-07-11",
+    "author": { "@type": "Organization", "name": "Beck" },
+    "publisher": { "@type": "Organization", "name": "Visionion" },
+    "mainEntityOfPage": "https://beck.visionion.dev/blog/automation-that-maintains-your-list/"
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="/">
+        <span class="logo" aria-hidden="true">B</span>
+        <span>Beck</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="/blog/">Blog</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+        <a href="/support/">Support</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="doc post">
+    <div class="container">
+      <article>
+        <h1>A task list that maintains itself</h1>
+        <p class="updated"><time datetime="2026-07-11">July 11, 2026</time></p>
+
+        <p>Every task list drifts. Labels go stale, finished items pile up, and yesterday's unfinished tasks quietly slide off the bottom of the screen. Keeping a list tidy is real work, and it's the kind of work you skip on exactly the days you most need the list to hold together. Beck's automation engine is built to do that upkeep for you, so the list you open in the morning is already in order. Automation is part of Beck Pro.</p>
+
+        <h2>How a rule is built</h2>
+        <p>Every rule has three parts: a <strong>trigger</strong> (when something happens), optional <strong>conditions</strong> (only if certain things are true), and one or more <strong>actions</strong> (what Beck does in response). Read one aloud and it sounds like plain English: "When a task is added to Work and it has no due date, add the label #followup." Small pieces, combined, cover a surprising amount of daily routine.</p>
+
+        <h2>What actions can do</h2>
+        <p>Actions are where the upkeep happens. Beck can auto-tag tasks so they land in the right context, reschedule them, roll unfinished tasks forward to today so nothing silently disappears, and archive completed ones so your active list stays lean. Because rules run as things change — not on a schedule you have to remember — the organizing happens continuously instead of in a weekly cleanup you keep meaning to do.</p>
+
+        <h2>Start from a recipe</h2>
+        <p>You don't have to design rules from a blank screen. Beck ships with ready-made <strong>recipes</strong> — common automations you can switch on and adjust. Turn one on, tweak the trigger or swap a label, and you have a working rule in under a minute. It's also the fastest way to learn what the engine can do: start from something that already works and change one piece at a time.</p>
+
+        <h2>A few rules worth stealing</h2>
+        <ul>
+          <li><strong>Roll over:</strong> move any unfinished task from yesterday onto today automatically, so nothing gets stranded in the past.</li>
+          <li><strong>Auto-tag by list:</strong> anything added to a given project picks up its context label without you typing it.</li>
+          <li><strong>Tidy up:</strong> archive completed tasks on a short delay — out of sight, but not gone.</li>
+          <li><strong>Catch the untriaged:</strong> flag tasks that arrive with no due date or priority so they don't slip through unnoticed.</li>
+        </ul>
+
+        <h2>Why automate instead of doing it by hand</h2>
+        <p>The value isn't the few seconds saved on any single action. It's that the system stays consistent even on the days you don't have the energy to keep it tidy. A list that maintains itself is a list you keep trusting — and a list you trust is one you actually use, instead of one you abandon after a rough week.</p>
+
+        <div class="callout cta">
+          <strong>Let the busywork run itself.</strong> The automation engine is part of Beck Pro; capturing, organizing, and completing tasks by hand are always free, so automation is a layer you add when manual upkeep starts to feel like a chore. <a href="/">Explore Beck &rarr;</a>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <nav class="footer-links" aria-label="Footer">
+        <a href="/">Home</a>
+        <a href="/blog/">Blog</a>
+        <a href="/privacy/">Privacy Policy</a>
+        <a href="/terms/">Terms of Service</a>
+        <a href="/support/">Support</a>
+        <a href="mailto:info@visionion.dev">Contact</a>
+      </nav>
+      <div class="footer-meta">
+        <p>Beck is made by Visionion.</p>
+        <p>&copy; 2026 Visionion. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
