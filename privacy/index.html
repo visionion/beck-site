@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy — Beck</title>
+  <meta name="description" content="How Beck handles your data: local-first by default, optional cloud sync, no tracking, no ads, no data sold. Read the full privacy policy." />
+  <link rel="canonical" href="https://beck.visionion.dev/privacy/" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%234A8CDB'/><text x='50' y='68' font-size='60' font-family='Arial' font-weight='bold' text-anchor='middle' fill='white'>B</text></svg>" />
+  <link rel="stylesheet" href="/styles.css" />
+
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Beck" />
+  <meta property="og:title" content="Privacy Policy — Beck" />
+  <meta property="og:description" content="Local-first by default, optional cloud sync, no tracking, no ads, no data sold." />
+  <meta property="og:url" content="https://beck.visionion.dev/privacy/" />
+  <meta name="twitter:card" content="summary" />
+
+  <!-- Google Analytics 4 — replace G-XXXXXXXXXX with the real Measurement ID (property 516785066). See README. -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="/">
+        <span class="logo" aria-hidden="true">B</span>
+        <span>Beck</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+        <a href="/support/">Support</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="doc">
+    <div class="container">
+      <article>
+        <h1>Privacy Policy</h1>
+        <p class="updated">Effective date: July 1, 2026</p>
+
+        <p>Beck ("Beck", the "app") is an iOS task manager made by Visionion ("we", "us"). We built Beck to be private by default. This policy explains, in plain language, what data Beck handles, what it does not, and the choices you have.</p>
+
+        <div class="callout">
+          <strong>The short version.</strong> Beck works fully on your device with no account. We do not track you, show ads, or sell your data. If — and only if — you choose to create an account, your task data and attachments sync through our provider so you can use them across your devices.
+        </div>
+
+        <h2>1. Local-first by default</h2>
+        <p>Most of Beck works entirely offline with no account. Your tasks, projects, labels, Smart Lists, automation rules, habits, and settings are stored on your device in a local database. If you never create an account, this information stays on your device and is not sent to us.</p>
+        <p>Please note that data stored locally on your device is not independently encrypted at rest by Beck; it relies on the protections of your device and iOS. Keep your device secured with a passcode and system data protection.</p>
+
+        <h2>2. Optional cloud sync (accounts)</h2>
+        <p>You may choose to create an account with an <strong>email address and password</strong> to sync your data across your devices. Account creation is optional and Beck is fully usable without one.</p>
+        <p>When you are signed in, the following is stored on our infrastructure so it can sync across your devices:</p>
+        <ul>
+          <li><strong>Account credentials:</strong> your email address and an encrypted representation of your password (handled by our authentication provider — we never see your password in plain text).</li>
+          <li><strong>Task content:</strong> tasks, projects, labels, Smart Lists, automation rules, and habits that you create.</li>
+          <li><strong>File attachments:</strong> files you attach to tasks, stored in cloud object storage.</li>
+        </ul>
+        <p>We use this data solely to provide the app's functionality — to store your content and keep it in sync across your devices. Your authentication tokens are stored securely on your device in the iOS <strong>Keychain</strong>. Data in transit between the app and our servers is protected with HTTPS.</p>
+
+        <h2>3. Who processes your data</h2>
+        <p>We use <strong>Supabase</strong> as our backend service provider (a "processor") for authentication, database storage, and file storage of the synced data described above. Supabase processes this data on our behalf and under our instructions. We do not use your task content or attachments for advertising, and we do not share them with third parties except as needed to operate the sync service or where required by law.</p>
+
+        <h2>4. Location</h2>
+        <p>Beck can create <strong>location-based reminders</strong> (geofences) that alert you when you arrive at or leave a place. Location is used <strong>on your device only</strong>, and only with your permission ("When In Use"). When you set a location reminder, the coordinate of the place you chose is saved in that reminder on your device. Your device's live location is monitored locally by iOS and is <strong>never transmitted to Beck's servers</strong>. If you enable cloud sync, a location reminder's saved place coordinate syncs as part of that task's content, but your real-time whereabouts are never collected or sent.</p>
+
+        <h2>5. Notifications</h2>
+        <p>Beck schedules <strong>local notifications</strong> on your device for reminders, including Time-Sensitive alerts. These are generated on-device by iOS. Beck does not operate a push-notification server that tracks you.</p>
+
+        <h2>6. What we do NOT do</h2>
+        <ul>
+          <li>We do <strong>not</strong> include any third-party analytics or advertising SDK in the app.</li>
+          <li>We do <strong>not</strong> track you across apps or websites.</li>
+          <li>We do <strong>not</strong> show ads.</li>
+          <li>We do <strong>not</strong> sell your personal data, and we do <strong>not</strong> share it with third parties for advertising.</li>
+        </ul>
+
+        <h2>7. This marketing website</h2>
+        <p>This website (beck.visionion.dev) uses <strong>Google Analytics 4</strong> to understand aggregate visits to these pages — for example, how many people view the download or support pages. This applies to the website only, not the Beck app. Google Analytics may set cookies and collect standard usage information (such as a truncated IP address, browser, and pages viewed). You can opt out of Google Analytics using the <a href="https://tools.google.com/dlpage/gaoptout" rel="noopener">Google Analytics opt-out browser add-on</a>, or by blocking cookies in your browser.</p>
+
+        <h2>8. Purchases</h2>
+        <p>Beck Pro subscriptions and the Lifetime unlock are sold through Apple's In-App Purchase system. Your payment is processed by Apple, not by us — we never receive or store your payment card details. Apple provides us with anonymous or aggregate purchase and receipt information needed to unlock and validate your purchase.</p>
+
+        <h2>9. Data retention and deletion</h2>
+        <p>Local data is kept on your device until you delete it or remove the app. If you use cloud sync, your synced data is retained in your account until you delete it or delete your account.</p>
+        <p>You can delete your data at any time by removing items in the app, and you can delete your entire account and its synced data. Deleting your account <strong>removes your synced data from our servers</strong>. To request account deletion or ask a data question, use the in-app account deletion option or email us at <a href="mailto:info@visionion.dev">info@visionion.dev</a>.</p>
+
+        <h2>10. Children</h2>
+        <p>Beck is rated 4+ but is <strong>not directed to children under 13</strong>, and we do not knowingly collect personal information from children under 13. If you believe a child has provided us personal information, contact us and we will delete it.</p>
+
+        <h2>11. Changes to this policy</h2>
+        <p>We may update this policy as the app evolves. When we make material changes, we will update the effective date at the top of this page. Continued use of Beck after an update means you accept the revised policy.</p>
+
+        <h2>12. Contact</h2>
+        <p>Questions about privacy? Email us at <a href="mailto:info@visionion.dev">info@visionion.dev</a>.</p>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <nav class="footer-links" aria-label="Footer">
+        <a href="/">Home</a>
+        <a href="/privacy/">Privacy Policy</a>
+        <a href="/terms/">Terms of Service</a>
+        <a href="/support/">Support</a>
+        <a href="mailto:info@visionion.dev">Contact</a>
+      </nav>
+      <div class="footer-meta">
+        <p>Beck is made by Visionion.</p>
+        <p>&copy; 2026 Visionion. All rights reserved.</p>
+        <p class="disclaimer">This policy is provided for transparency; review with your own counsel before relying on it.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
